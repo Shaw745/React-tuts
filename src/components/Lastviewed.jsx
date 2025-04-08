@@ -29,7 +29,7 @@ const Lastviewed = () => {
   return (
     <div className="max-w-[1300px] mx-auto mt-6">
       <div className="bg-orange-500 text-3xl font-bold p-5 text-center rounded-t-2xl text-white ">
-        <h1>Top seller</h1>
+        <h1>Last Viewed </h1>
       </div>
       <section className="flex gap-2.5 items-center">
         {topProducts.map((product) => {
