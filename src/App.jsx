@@ -10,14 +10,19 @@ import Simplelist from "./components/Simplelist";
 import Complexlist from "./components/Complexlist";
 import Mystore from "./components/Mystore";
 import Lastviewed from "./components/Lastviewed";
+import Propschildren from "./components/Propschildren";
+import EventHanding from "./components/EventHanding";
+import Conditional from "./components/Conditional";
+import SimpleState from "./components/SimpleState";
+import { useState } from "react";
+import User from "./User";
 
 
 function App() {
   return (
     <>
-    <Mystore/>
-    <Lastviewed/>
-     
+      <SimpleState />
+      <User />
     </>
   );
 }
