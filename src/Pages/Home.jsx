@@ -1,10 +1,15 @@
 import React from 'react'
-import Jumiaclone from '../Components/Jumiaclone'
+import Simpleref from '../components/Simpleref'
+import  Hero from '../components/Hero'
+
 
 const Home = () => {
   return (
     <div>
-        <Jumiaclone/>
+      <Hero />
+
+      <Simpleref />
+
     </div>
   )
 }
